@@ -3,7 +3,7 @@
 
 <head>
   <title>Structuring the web with Bootstrap</title>
-  <h2>“Plants by” Raajitha Vardhanapu</h2>
+  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,13 +21,14 @@
   <div class="container">
     <nav class="navbar navbar-expand-md navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="plants.html">Plants</a>
+        <a class="navbar-brand" href="plants.html">Interesting Plants</a>
         <button button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#plantId"
           aria-controls="plantId" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="plantId">
           <ul class="navbar-nav me-auto">
+            <li class="nav-link active"><a href="plants.html"> Plants</a></li>
             <li class="nav-link active"><a href="basic.html"> Basic</a>
 
             </li>
@@ -43,6 +44,7 @@
       </div>
     </nav>
   </div>
+  <h2>“Plants by” Raajitha Vardhanapu</h2>
   <div class="container">
     <div class="row">
       <div class=" col-sm-2">V</div>
@@ -78,8 +80,9 @@
   </div>
 
   <div class="container">
+    <caption>Table using bootstrap</caption>
     <table class="table table-success table-striped">
-      <caption>Table using bootstrap</caption>
+      
       <thead>
         <tr>
           <th scope="col">Letter</th>
@@ -152,11 +155,12 @@
       <button type="button" class="btn btn-warning">R</button>
     </div>
     <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-      <button type="button" class="btn btn-danger">Left</button>
+      <button type="button" class="btn btn-danger">D</button>
     </div>
   </div>
 
   <div class="container">
+    <br>
     <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">
       Dropdown buttons for Basic HTML and Advanced HTML
     </button>
@@ -179,7 +183,7 @@
       </div>
       <div class="mb-3 form-group">
         <label for="exampleInputPlant" class="form-label">Interesting Plant</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your plant">
+        <input type="Text" class="form-control" id="exampleInputPassword1" placeholder="Enter your plant">
       </div>
       <div class="mb-3 form-check">
         <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -224,7 +228,7 @@
                 <p class="card-text h-80">A. aethiopicus, which is typically grown as a houseplant. While different species, both are very similar plants with bright green feathery-textured foliage.
                 </p>
                 <button class="btn btn-primary"
-                    onclick="location.href=''">About Asparagus fern
+                    onclick="location.href='https://www.thespruce.com/grow-asparagus-ferns-1902714'">About Asparagus fern
                     Plant</button>
             </div>
         </div>
